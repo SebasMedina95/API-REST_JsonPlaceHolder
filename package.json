@@ -1,0 +1,30 @@
+{
+  "name": "apires-jsonplaceholder",
+  "version": "1.0.0",
+  "description": "Aplicación REST para prubea técnica de I4 Digital. Consumo de un recurso externo y agregado de información de usuario y log en una base de datos mongo para los temas adicionales de la gestión de la información. Aplicación en NodeJS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Juan Sebastian Medina Toro",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "excel4node": "^1.8.2",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "express-validator": "^7.0.1",
+    "jwt-simple": "^0.5.6",
+    "moment": "^2.29.4",
+    "mongoose": "^7.3.3",
+    "uuidv4": "^6.2.13",
+    "validator": "^13.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
